@@ -7,5 +7,4 @@ input.forEach(el => {
   setTimeout(() => {
     process.stdout.write('\x07');
   }, el * 1000);
-
 });
